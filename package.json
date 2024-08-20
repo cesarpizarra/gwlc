@@ -1,6 +1,6 @@
 {
   "name": "gwlc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provides data about languages spoken around the world, including their codes and names.",
   "main": "dist/gwlc.js",
   "repository": "https://github.com/cesarpizarra/gwlc",
