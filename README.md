@@ -1,40 +1,40 @@
-# Lingua
+# 𝚐𝚠𝚕𝚌 Global World Language Codes
 
 Provides data about languages spoken around the world, including their codes and names.
 
 ## Installation
 
-    $ npm install --save lingua
+    $ npm install --save gwlc
 
 or you can use yarn
 
-    $ yarn add lingua
+    $ yarn add gwlc
 
-Import lingua into your app
+Import gwlc into your app
 
 ```js
-import { lingua } from 'lingua';
+import { gwlc } from 'gwlc';
 ```
 
 or
 
 ```js
-const lingua = require('lingua');
+const gwlc = require('gwlc');
 ```
 
 Use the methods `all`, `find`, or `filter` to get the language you need.
 
 ```js
 // Get all languages
-lingua.all();
+gwlc.all();
 
 // Find a specific language by name or code
-lingua.find('English'); // Finds by name
-lingua.find('en'); // Finds by code
+gwlc.find('English'); // Finds by name
+gwlc.find('en'); // Finds by code
 
 // Filter languages by a search term (case-insensitive)
-lingua.filter('span'); // Matches languages like 'Spanish'
-lingua.filter('en'); // Matches languages with 'en' in their name or code
+gwlc.filter('span'); // Matches languages like 'Spanish'
+gwlc.filter('en'); // Matches languages with 'en' in their name or code
 ```
 
 ## Contributing

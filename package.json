@@ -1,9 +1,9 @@
 {
-  "name": "lingua",
+  "name": "gwlc",
   "version": "1.0.0",
   "description": "Provides data about languages spoken around the world, including their codes and names.",
-  "main": "dist/lingua.js",
-  "repository": "https://github.com/cesarpizarra/lingua",
+  "main": "dist/gwlc.js",
+  "repository": "https://github.com/cesarpizarra/gwlc",
   "scripts": {
     "test": "jest",
     "build": "tsc"
@@ -12,7 +12,8 @@
     "languages",
     "language-codes",
     "language-names",
-    "lingua"
+    "gwlc",
+    "lang"
   ],
   "author": "Cesar Pizarra <cpizarra002@gmail.com> (http://cpizarra.vercel.app)",
   "license": "ISC",
