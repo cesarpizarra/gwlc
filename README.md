@@ -10,13 +10,7 @@ or you can use yarn
 
     $ yarn add gwlc
 
-Import gwlc into your app
-
-```js
-import { gwlc } from 'gwlc';
-```
-
-or
+To use `gwlc`, simply require it in your Node.js project:
 
 ```js
 const gwlc = require('gwlc');
